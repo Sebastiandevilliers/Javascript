@@ -29,7 +29,6 @@
         compSelect = "scissors";
     }
 
-      alert("Select an option\n" + "1.Rock\n" + "2.Paper\n" + "3.Scissor")
 
       let userSelect = parseInt(prompt());
 
@@ -39,7 +38,7 @@
           case 1:
               console.log("ONe selected")
               if(compSelect == "rock"){
-                  alert("draw")
+                  
               }
               if(compSelect == "scissors"){
                     countHuman++
@@ -51,7 +50,7 @@
               break;
           case 2:
             if(compSelect == "paper"){
-                alert("draw")
+                
             }
             if(compSelect == "scissors"){
                   countPc++
@@ -63,7 +62,7 @@
 
             case 3:
             if(compSelect == "scissors"){
-                alert("draw")
+                
             }
             if(compSelect == "paper"){
                 countHuman++
@@ -85,12 +84,14 @@
       console.log(countHuman + " Player")
 
       if(countHuman > countPc){
-        alert("Player wins")
+        //alert("Player wins")
     }else{
-        alert("Computer wins")
+      //  alert("Computer wins")
     }
 
     if(compSelect == "rock" ){
         console.log("Ture")
     }
+
+    document.getElementById("b1").addEventListener("click", function(){alert("Rock Selected");});
 

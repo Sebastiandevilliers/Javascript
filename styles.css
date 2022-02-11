@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #415b75;
+}
+
+h1 {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+header,
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+}
+
+.rock {
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.paper {
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.scissors {
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.comp {
+  padding-top: 20px;
+}
