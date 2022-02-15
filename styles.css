@@ -54,5 +54,5 @@ h2 {
 
 .test {
   display: flex;
-  justify-content: center;
+  padding-left: 500px;
 }
