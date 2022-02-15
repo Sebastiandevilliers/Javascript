@@ -52,7 +52,11 @@ h2 {
   padding-top: 20px;
 }
 
-.test {
+h4 {
   display: flex;
-  padding-left: 500px;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
+  font-size: 55px;
 }
